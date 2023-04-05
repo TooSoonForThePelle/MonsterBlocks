@@ -63,6 +63,10 @@
 		{
 			"type": "cover",
 			"url": "https://raw.githubusercontent.com/zeel01/MonsterBlocks/master/examples/ancientRedDragon_5.png"
+		},
+		{
+			"type": "icon",
+			"url": "https://avatars2.githubusercontent.com/u/1721836"
 		}
 	]
 }
