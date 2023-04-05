@@ -2,66 +2,58 @@
 	"id": "monsterblock",
 	"title": "Monster Blocks",
 	"description": "An NPC sheet designed to emulate standard 5e monster stat blocks as faithfully as possible.",
-	"authors": [
-		{
-			"name": "zeel",
-			"email": "zeel02@gmail.com",
-			"url": "https://github.com/zeel01",
-			"discord": "zeel#4200"
-		}
-	],
+	"authors": [{
+		"name": "zeel",
+		"email": "zeel02@gmail.com",
+		"url": "https://github.com/zeel01",
+		"discord": "zeel#4200"
+	}],
 	"version": "3.3.6",
 	"compatibility": {
 		"minimum": "10",
 		"verified": "10"
 	},
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "2.1.0"
-        }
-      }
-    ],
-	"esmodules": [
-		"monsterblock.js"
-	],
-	"styles": [
-		"monsterblock.css"
-	],
-	"languages": [ 
-		{
-			"lang": "en",
-			"name": "English",
-			"path": "lang/en.json"
-		},
-		{
-			"lang": "ja",
-			"name": "日本語",
-			"path": "lang/ja.json"
-		},
-		{
-			"lang": "fr",
-			"name": "Français",
-			"path": "lang/fr.json"
-		},
-		{
-			"lang": "pt-BR",
-			"name": "Português (Brasil)",
-			"path": "lang/pt-BR.json"
-		}
-	],
-	"requires": [
-		{
+	"relationships": {
+		"systems": [{
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "2.1.0"
+			}
+		}],
+		"esmodules": [
+			"monsterblock.js"
+		],
+		"styles": [
+			"monsterblock.css"
+		],
+		"languages": [{
+				"lang": "en",
+				"name": "English",
+				"path": "lang/en.json"
+			},
+			{
+				"lang": "ja",
+				"name": "日本語",
+				"path": "lang/ja.json"
+			},
+			{
+				"lang": "fr",
+				"name": "Français",
+				"path": "lang/fr.json"
+			},
+			{
+				"lang": "pt-BR",
+				"name": "Português (Brasil)",
+				"path": "lang/pt-BR.json"
+			}
+		],
+		"requires": [{
 			"id": "lib-mathjs",
-			"type": "module",
-			"compatibility": {}
-		}
-		]
-	},
-	"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/MonsterBlocks/master/module.json",
-	"url": "https://github.com/zeel01/MonsterBlocks",
-	"download": "https://github.com/TooSoonForThePelle/MonsterBlocks/releases/latest/download/MonsterBlocks.zip"
+			"type": "module"
+		}],
+		"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/MonsterBlocks/master/module.json",
+		"url": "https://github.com/zeel01/MonsterBlocks",
+		"download": "https://github.com/TooSoonForThePelle/MonsterBlocks/releases/latest/download/MonsterBlocks.zip"
+	}
 }
