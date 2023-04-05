@@ -53,7 +53,6 @@
 			"path": "lang/pt-BR.json"
 		}
 	],
-
 	"requires": [
 		{
 			"id": "lib-mathjs",
