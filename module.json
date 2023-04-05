@@ -21,6 +21,12 @@
 				"minimum": "2.1.0"
 			}
 		}],
+	"requires": [{
+		"id": "lib-mathjs",
+		"type": "module",
+		"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/mathjs-lib/master/module.json",
+		"compatibility": {}
+	}],
 	"esmodules": [
 		"monsterblock.js"
 	],
