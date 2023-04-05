@@ -68,11 +68,5 @@
 	"readme": "https://github.com/zeel01/MonsterBlocks/blob/master/readme.md",
 	"bugs": "https://github.com/zeel01/MonsterBlocks/issues",
 	"allowBugReporter": true,
-	"changelog": "https://github.com/zeel01/MonsterBlocks/releases",
-	"media": [
-		{
-			"type": "cover",
-			"url": "https://raw.githubusercontent.com/zeel01/MonsterBlocks/master/examples/ancientRedDragon_5.png"
-		}
-	]
+	"changelog": "https://github.com/zeel01/MonsterBlocks/releases"
 }
