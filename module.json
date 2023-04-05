@@ -50,7 +50,8 @@
 		],
 		"requires": [{
 			"id": "lib-mathjs",
-			"type": "module"
+			"type": "module",
+			"compatibility": {}
 		}],
 		"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/MonsterBlocks/master/module.json",
 		"url": "https://github.com/zeel01/MonsterBlocks",
