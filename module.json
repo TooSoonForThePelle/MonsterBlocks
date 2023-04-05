@@ -54,7 +54,7 @@
 			"path": "lang/pt-BR.json"
 		}
 		],
-		"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/MonsterBlocks/master/module.json",
+		"manifest": "https://github.com/TooSoonForThePelle/MonsterBlocks/releases/latest/download/module.json",
 		"url": "https://github.com/zeel01/MonsterBlocks",
 		"download": "https://github.com/TooSoonForThePelle/MonsterBlocks/releases/latest/download/MonsterBlocks.zip"
 	}
