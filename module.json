@@ -52,9 +52,9 @@
 			"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/mathjs-lib/master/module.json"
 		}
 	],
-	"manifest": "https://github.com/zeel01/MonsterBlocks/releases/latest/download/module.json",
+	"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/MonsterBlocks/master/module.json",
 	"url": "https://github.com/zeel01/MonsterBlocks",
-	"download": "https://github.com/zeel01/MonsterBlocks/releases/latest/download/monsterblock.zip",
+	"download": "https://github.com/TooSoonForThePelle/MonsterBlocks/releases/latest/download/MonsterBlocks.zip",
 	"readme": "https://github.com/zeel01/MonsterBlocks/blob/master/readme.md",
 	"bugs": "https://github.com/zeel01/MonsterBlocks/issues",
 	"allowBugReporter": true,
