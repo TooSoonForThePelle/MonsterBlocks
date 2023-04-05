@@ -15,8 +15,16 @@
 		"minimum": "10",
 		"verified": "10"
 	}
-	"system": ["dnd5e"],
-	"minimumSystemVersion": "2.1.0",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.1.0"
+        }
+      }
+    ],
 	"esmodules": [
 		"monsterblock.js"
 	],
@@ -45,13 +53,15 @@
 			"path": "lang/pt-BR.json"
 		}
 	],
-	"dependencies": [
+
+	"requires": [
 		{
-			"name": "lib-mathjs",
+			"id": "lib-mathjs",
 			"type": "module",
-			"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/mathjs-lib/master/module.json"
+			"compatibility": {}
 		}
-	],
+		]
+	},
 	"manifest": "https://raw.githubusercontent.com/TooSoonForThePelle/MonsterBlocks/master/module.json",
 	"url": "https://github.com/zeel01/MonsterBlocks",
 	"download": "https://github.com/TooSoonForThePelle/MonsterBlocks/releases/latest/download/MonsterBlocks.zip",
@@ -63,10 +73,6 @@
 		{
 			"type": "cover",
 			"url": "https://raw.githubusercontent.com/zeel01/MonsterBlocks/master/examples/ancientRedDragon_5.png"
-		},
-		{
-			"type": "icon",
-			"url": "https://avatars2.githubusercontent.com/u/1721836"
 		}
 	]
 }
